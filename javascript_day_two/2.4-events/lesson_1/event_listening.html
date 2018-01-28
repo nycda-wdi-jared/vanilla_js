@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Event Listening</title>
+</head>
+<body>
+	<h1 id="h1-click-tag">Text to Click</h1>
+	<h2 id="h2-click-tag">Click to Change</h2>
+	<br>
+	<h1>Enter your information</h1>
+	<form action="/process" method="POST" id="formId">
+		<label for="username">Username</label>
+		<input type="text" name="username" id="username"/>
+		<label for="password">Password</label>
+		<input type="password" name="password" id="password"/>
+		<input type="submit" value="Submit"/>
+	</form>
+	<div id="result-after-submit"></div>
+	<script type="text/javascript" src="event_listening.js"></script>
+</body>
+</html>
