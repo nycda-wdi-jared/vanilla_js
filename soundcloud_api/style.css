@@ -1,0 +1,38 @@
+.current{
+  color: blue;
+}
+
+.buttons{
+  padding-left: 530px;
+  font-family: 'Shrikhand', cursive;
+  width: 200px;
+  height: 80px;
+  font-size: 2em;
+  border: 1px solid white;
+  color: white;
+  background-color: transparent;
+  margin: 20px;
+  outline: none;
+  letter-spacing: 3px;
+}
+
+#playlist {
+  color: white;
+}
+
+.button:hover {
+  font-weight: bold;
+  cursor: pointer;
+  color: #FFADA2;
+  background-color: transparent;
+  letter-spacing: 12px;
+  border: 1px solid #FFADA2;
+}
+body {
+  text-align: center;
+  font-family: 'Bubbler One', sans-serif;
+  background-color: black;
+  color: white;
+  width: 100%;
+  letter-spacing: 2px;
+}
